@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS bdempleadosjoq;
+USE bdempleadosjoq;
+
+CREATE TABLE IF NOT EXISTS empleados (
+    IdEmpleado INT AUTO_INCREMENT PRIMARY KEY,
+    Apellidos VARCHAR(66) NOT NULL,
+    Nombres VARCHAR(66) NOT NULL,
+    Edad INT NOT NULL,
+    Sexo VARCHAR(15) NOT NULL,
+    Salario DOUBLE(10,2) NOT NULL
+);

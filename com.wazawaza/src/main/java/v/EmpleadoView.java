@@ -1,0 +1,30 @@
+package v;
+
+import c.*;
+
+@SuppressWarnings(EmpleadoView.UNUSED)
+public class EmpleadoView {
+
+static final String UNUSED = "unused";
+
+public static void main(String[] args) {
+		
+		/*CREATE*/
+		//String empleado = new EmpleadoController().createEmpleado("Alfaro", "José", 20, "Masculino", 2500.00); System.out.println(empleado);
+		
+	
+		/*READ*/
+		//String empleado = new EmpleadoController().readEmpleado(1); System.out.println(empleado);
+	
+	
+		/*UPDATE*/
+		//String empleado = new EmpleadoController().updateEmpleado(1, "Alfaro Salcedo", "José Antonio", 21, "Masculino", 3750.50); System.out.println(empleado);
+		
+		
+		/*DELETE*/
+		String empleado = new EmpleadoController().deleteEmpleado(1); System.out.println(empleado);
+		
+		
+	}
+
+}
